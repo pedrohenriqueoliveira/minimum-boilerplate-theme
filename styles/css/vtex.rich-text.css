@@ -1,0 +1,177 @@
+/* Headings */
+
+.heading--main2 {
+  margin-top: 0px;
+  margin-bottom: 6px;
+}
+
+.heading--main4 {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+/* Containers */
+
+.container--main2 {
+  margin: auto;
+  padding-top: 34px;
+  border-top: 2px solid #eee;
+  width: auto;
+}
+
+.container--main4 {
+  margin: auto;
+  padding-bottom: 34px;
+  border-bottom: 2px solid #eee;
+  width: auto;
+}
+
+.container--main6 {
+  margin: auto;
+  padding-bottom: 137px;
+  width: auto;
+}
+
+.container--wedding1 {
+  width: auto;
+  margin: auto;
+  padding-top: 17px;
+  padding-bottom: 42px;
+  margin-bottom: 6px;
+}
+
+.container--ceremony-title {
+  height: auto
+}
+
+.container--ceremony-place {
+  padding-bottom: 17px;
+}
+
+.container--reception-title {
+  height: auto
+}
+
+.container--reception-place {
+  padding-bottom: 17px;
+}
+
+/* Paragraphs */
+
+.paragraph--heading-1 {
+  margin: 0;
+  font-size: 54px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Cormorant Garamond';
+  line-height: 1.2em;
+  letter-spacing: 1px;
+  text-align: center;
+  display: inline-block
+}
+
+.paragraph--main1 {
+  margin: 0;
+  padding: 68px 17px 34px 17px;
+  font-family: "Montserrat";
+}
+
+.paragraph--main2 {
+  font-family: "Montserrat";
+}
+
+.paragraph--main3 {
+  margin-top: 20px;
+  margin-bottom: 6px;
+}
+
+.paragraph--main5 {
+  margin: 0;
+  padding: 34px 17px 102px 17px;
+  font-family: "Montserrat";
+}
+
+.paragraph--main6 {
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 28px;
+  font-family: 'Cormorant Garamond';
+}
+
+.paragraph--wedding1 {
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 28px;
+  font-family: 'Cormorant Garamond';
+}
+
+.paragraph--ceremony-title {
+  margin-top: 0px;
+  margin-bottom: 6px;
+  font-family: "Montserrat";
+  font-size: 20px;
+  line-height: 1.2em;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+.paragraph--ceremony-time {
+  margin-bottom: 4.2px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 1.6em;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+.paragraph--ceremony-place {
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 1.8em;
+  font-weight: 400;
+}
+
+.paragraph--reception-title {
+  margin-top: 0px;
+  margin-bottom: 6px;
+  font-family: "Montserrat";
+  font-size: 20px;
+  line-height: 1.2em;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+.paragraph--reception-time {
+  margin-bottom: 4.2px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 1.6em;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+.paragraph--reception-place {
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 1.8em;
+  font-weight: 400;
+}
+
+@media (max-width: 425px) {
+  .paragraph--main6 {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .container--wedding1 {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  .paragraph--main1 {
+    text-align: center;
+  }
+}

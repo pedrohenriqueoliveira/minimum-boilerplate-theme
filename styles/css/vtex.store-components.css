@@ -1,0 +1,17 @@
+.imageElement--main-image {
+  padding-bottom: 17px;
+}
+
+.imageElement--wedding-image {
+  padding-bottom: 85px;
+}
+
+.infoCardContainer--gift-list-cta {
+  border-bottom-width: 0;
+  border-bottom-style: none;
+}
+
+.sellingPrice {
+  font-weight: 700;
+  font-family: "Courier Prime";
+}

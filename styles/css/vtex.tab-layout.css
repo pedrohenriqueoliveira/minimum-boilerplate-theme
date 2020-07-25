@@ -1,0 +1,74 @@
+.listContainer {
+  margin-top: 40px;
+}
+
+.listItem--main :first-child {
+  font-weight: 600;
+}
+
+.listItem--wedding :first-child {
+  font-weight: 600;
+}
+
+.listItem--registry :first-child {
+  font-weight: 600;
+}
+
+.listItem--rsvp :first-child {
+  font-weight: 600;
+}
+
+.contentContainer {
+  margin-top: 52px;
+}
+
+@media (max-width: 425px) {
+  .listItem--main :first-child {
+    font-weight: 600;
+    font-size: 10px;
+  }
+
+  .listItem--wedding :first-child {
+    font-weight: 600;
+    font-size: 10px;
+  }
+
+  .listItem--registry {
+    flex-grow: 0.1;
+  }
+
+  .listItem--registry :first-child {
+    font-weight: 600;
+    font-size: 10px;
+  }
+
+  .listItem--rsvp {
+    text-align: center;
+    flex-grow: 0.15;
+  }
+
+  .listItem--rsvp :first-child {
+    font-weight: 600;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 375px) {
+  .listItem--registry {
+    flex-grow: 0.2;
+  }
+  .listItem--rsvp {
+    text-align: left;
+    flex-grow: 0.2;
+  }
+}
+
+@media (max-width: 320px) {
+  .listItem--registry {
+    flex-grow: 0.2;
+  }
+  .listItem--rsvp {
+    text-align: center;
+    flex-grow: 0.5;
+  }
+}

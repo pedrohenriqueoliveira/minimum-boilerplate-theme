@@ -1,0 +1,17 @@
+{
+  "tab-content.item#rsvp": {
+    "children": [
+      "iframe#rsvp"
+    ],
+    "props": {
+      "tabId": "rsvp"
+    }
+  },
+  "iframe#rsvp": {
+    "props": {
+      "src": "https://docs.google.com/forms/d/e/1FAIpQLSe1b3gT1znn6DF8zerczAO7gY48urrTmcVVsnqrMrsVQksmmg/viewform?embedded=true",
+      "width": 800,
+      "height": 1000
+    }
+  }
+}

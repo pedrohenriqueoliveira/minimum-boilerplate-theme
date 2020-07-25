@@ -1,0 +1,37 @@
+{
+  // "store.custom#gift-list": {
+  //   "blocks": ["search-result-layout.customQuery"]
+  // },
+  // "search-result-layout.customQuery": {
+  //   "props": {
+  //     "querySchema": {
+  //     "orderByField": "OrderByReleaseDateDESC",
+  //     "hideUnavailableItems": false,
+  //     "facetsBehavior": "Dynamic",
+  //     "maxItemsPerPage": 4,
+  //     "queryField": "Lista de Presentes",
+  //     "mapField": "ft",
+  //     "skusFilter": "FIRST_AVAILABLE"
+  //     }
+  //   },
+  //   "blocks": [
+  //     "search-result-layout.desktop"
+  //   ]
+  // },
+  // "search-result-layout.desktop": {
+  //   "children": [
+  //     "breadcrumb.search",
+  //     "filter-navigator.v3",
+  //     "total-products.v2",
+  //     "order-by.v2",
+  //     "search-content",
+  //     "search-fetch-more"
+  //   ]
+  // },
+  // "search-content": {
+  //   "blocks": ["gallery", "not-found"]
+  // },
+  // "gallery": {
+  //   "blocks": ["product-summary"]
+  // }
+}

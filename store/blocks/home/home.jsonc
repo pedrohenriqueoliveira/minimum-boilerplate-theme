@@ -1,7 +1,146 @@
 {
   "store.home": {
     "blocks": [
-      "shelf"
+      "flex-layout.row#body"
     ]
+  },
+  "flex-layout.row#body": {
+    "children": [
+      "flex-layout.col#body"
+    ]
+  },
+  "flex-layout.col#body": {
+    "children": [
+      "rich-text#heading-1",
+      "tab-layout#home"
+    ],
+    "props": {
+      "blockClass": "canvas"
+    }
+  },
+  "rich-text#heading-1" : {
+    "props": {
+      "text": "ME & PH",
+      "textPosition": "CENTER",
+      "blockClass": "heading-1"
+    }
+  },
+  "tab-layout#home": {
+    "children": [
+      "tab-list#home",
+      "tab-content#home"
+    ]
+  },
+  "tab-list#home": {
+    "children": [
+      "tab-list.item#main",
+      "tab-list.item#wedding",
+      "tab-list.item#registry",
+      "tab-list.item#rsvp"
+    ]
+  },
+  "tab-list.item#main": {
+    "props": {
+      "tabId": "main",
+      "label": "BOAS-VINDAS",
+      "defaultActiveTab": true,
+      "blockClass": "main"
+    }
+  },
+  "tab-list.item#wedding": {
+    "props": {
+      "tabId": "wedding",
+      "label": "O CASAMENTO",
+      "blockClass": "wedding"
+    }
+  },
+  "tab-list.item#registry": {
+    "props": {
+      "tabId": "registry",
+      "label": "PRESENTES",
+      "blockClass": "registry"
+    }
+  },
+  "tab-list.item#rsvp": {
+    "props": {
+      "tabId": "rsvp",
+      "label": "RSVP",
+      "blockClass": "rsvp"
+    }
+  },
+  "tab-content#home": {
+    "children": [
+      "tab-content.item#main",
+      "tab-content.item#wedding",
+      "tab-content.item#registry",
+      "tab-content.item#rsvp"
+    ]
+  },
+  "tab-content.item#main": {
+    "children": [
+      "image#main-image",
+      "rich-text#main1",
+      "rich-text#main2",
+      "rich-text#main3",
+      "rich-text#main4",
+      "rich-text#main5",
+      "rich-text#main6"
+    ],
+    "props": {
+      "tabId": "main"
+    }
+  },
+  "image#main-image": {
+    "props": {
+      "src": "https://static.gocommerce.com/gc-lhr9858/assets/gocommerce/jpg/casa-rosada-summertime2-min___7e5a33bc2124e4baab46d968c99dbbe2.jpg",
+      "blockClass": "main-image"
+    }
+  },
+  "rich-text#main1": {
+    "props": {
+      "text": "VENHAM COMEMORAR NOSSO CASAMENTO",
+      "textPosition": "CENTER",
+      "blockClass": "main1"
+    }
+  },
+  "rich-text#main2": {
+    "props": {
+      "text": "#### MARIA EUGÊNIA",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "main2"
+    }
+  },
+  "rich-text#main3": {
+    "props": {
+      "text": "*— & —*",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "main3"
+    }
+  },
+  "rich-text#main4": {
+    "props": {
+      "text": "#### PEDRO HENRIQUE",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "main4"
+    }
+  },
+  "rich-text#main5": {
+    "props": {
+      "text": "SÁBADO, 17 DE ABRIL DE 2021 - 14:30 h",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "main5"
+    }
+  },
+  "rich-text#main6": {
+    "props": {
+      "text": "Chegou um dos momentos mais marcantes de nossas vidas. Gostaríamos muito de tê-los conosco neste evento, onde vamos fazer nossos votos na presença de Deus, de nossos familiares e de nossos grandes amigos. \n\n Qualquer dúvida, sintam-se à vontade para nos procurar. \n\n Beijos e Abraços, \n Maria Eugênia & Pedro Henrique",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "main6"
+    }
   }
 }

@@ -1,0 +1,47 @@
+{
+  "tab-content.item#registry": {
+    "children": [
+      "image#registry-image",
+      "rich-text#registry1",
+      "flex-layout.row#registry-row"
+    ],
+    "props": {
+      "tabId": "registry"
+    }
+  },
+  "image#registry-image": {
+    "props": {
+      "src": "https://static.gocommerce.com/gc-lhr9858/assets/gocommerce/jpg/don-julio-summertime-min___de51f257249d79638b5870cc0cea13b5.jpg",
+      "blockClass": "wedding-image"
+    }
+  },
+  "rich-text#registry1": {
+    "props": {
+      "text": "Sua presença é o melhor presente que nós poderíamos ganhar nesse dia tão especial! \n\n Por isso, sintam-se à vontade para nos ajudar com presentes para nossa lua-de-mel e para montarmos nossa casinha. Contribua como quiser e como puder!",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "wedding1"
+    }
+  },
+  "flex-layout.row#registry-row": {
+    "children": [
+      "info-card#registry"
+    ],
+    "props": {
+      "blockClass": "wedding-row"
+    }
+  },
+  "info-card#registry": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "none",
+      "headline": "",
+      "callToActionText": "LISTA DE PRESENTES",
+      "callToActionUrl": "/presentes",
+      "blockClass": "gift-list-cta",
+      "textAlignment": "center"
+    }
+  }
+}

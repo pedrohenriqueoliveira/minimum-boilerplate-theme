@@ -1,0 +1,97 @@
+{
+  "tab-content.item#wedding": {
+    "children": [
+      "image#wedding-image",
+      "rich-text#wedding1",
+      "flex-layout.row#wedding-row"
+    ],
+    "props": {
+      "tabId": "wedding"
+    }
+  },
+  "image#wedding-image": {
+    "props": {
+      "src": "https://static.gocommerce.com/gc-lhr9858/assets/gocommerce/jpg/centro-civico-summertime-min___b09cb0b068c4784a1b670147bb58fac1.jpg",
+      "blockClass": "wedding-image"
+    }
+  },
+  "rich-text#wedding1": {
+    "props": {
+      "text": "Aqui vocês encontram detalhes sobre este dia tão especial. \n\n Pensamos em tudo com muito carinho e gostaríamos de ver todos bem elegantes. Por isso, o traje do evento será **passeio completo**.\n\n Pedimos também, se for possível, que todos mantenham seus celulares no bolso durante a cerimônia religiosa. Além de ser uma exigência do Mosteiro de São Bento, igreja onde vamos nos casar, nós nos apaixonamos pelo trabalho da Camilla, nossa fotógrafa, que vai registrar toda a cerimômia nos mínimos detalhes. Convidamos todos a viver esse momento único junto com a gente e a saírem todos muito bonitos nas fotos da Camilla. \n\n Após a cerimônia religiosa, os celulares estão liberados.",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "wedding1"
+    }
+  },
+  "flex-layout.row#wedding-row": {
+    "children": [
+      "flex-layout.col#ceremony",
+      "flex-layout.col#reception"
+    ],
+    "props": {
+      "blockClass": "wedding-row"
+    }
+  },
+  "flex-layout.col#ceremony": {
+    "children": [
+      "rich-text#ceremony-title",
+      "rich-text#ceremony-time",
+      "rich-text#ceremony-place"
+    ]
+  },
+  "flex-layout.col#reception": {
+    "children": [
+      "rich-text#reception-title",
+      "rich-text#reception-time",
+      "rich-text#reception-place"
+    ]
+  },
+  "rich-text#ceremony-title": {
+    "props": {
+      "text": "CERIMÔNIA",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "ceremony-title"
+    }
+  },
+  "rich-text#ceremony-time": {
+    "props": {
+      "text": "14:30 H",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "ceremony-time"
+    }
+  },
+  "rich-text#ceremony-place": {
+    "props": {
+      "text": "Mosteiro de São Bento \n Rua Dom Gerardo, 68 - Centro \n Rio de Janeiro - RJ",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "ceremony-place"
+    }
+  },
+  "rich-text#reception-title": {
+    "props": {
+      "text": "RECEPÇÃO",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "reception-title"
+    }
+  },
+  "rich-text#reception-time": {
+    "props": {
+      "text": "17:00 H",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "reception-time"
+    }
+  },
+  "rich-text#reception-place": {
+    "props": {
+      "text": "Casa Julieta de Serpa \n  Praia do Flamengo, 340 \n Rio de Janeiro - RJ",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "reception-place"
+    }
+  }
+}

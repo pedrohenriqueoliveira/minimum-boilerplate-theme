@@ -1,0 +1,9 @@
+.container {
+  background-color: #ffffff;
+}
+
+@media (min-width: 769px) {
+  .detailsContainer {
+    padding-right: 48px
+  }
+}

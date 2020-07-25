@@ -1,3 +1,50 @@
 {
-//  "store.product": {}
+  "store.product": {
+    "blocks": [
+      "product-details#default",
+      "product-kit",
+      "shelf.relatedProducts"
+    ]
+  },
+  "product-details#default": {
+    "blocks": [
+      "breadcrumb",
+      "vtex.store-components:product-name",
+      "product-images",
+      "product-price",
+      "product-description",
+      "product-specifications",
+      "buy-button",
+      "sku-selector",
+      "availability-subscriber"
+    ],
+    "props": {
+      "displayVertically": true,
+      "share": {
+        "social": {
+          "Facebook": false,
+          "WhatsApp": false,
+          "Twitter": false,
+          "Pinterest": false
+        }
+      },
+      "price": {
+        "labelSellingPrice": null,
+        "showListPrice": true,
+        "showLabels": true,
+        "showInstallments": true,
+        "showSavings": true
+      },
+      "name": {
+        "showBrandName": false,
+        "showSku": false,
+        "showProductReference": false
+      }
+    }
+  },
+  "buy-button": {
+    "props": {
+      "isOneClickBuy": true
+    }
+  }
 }

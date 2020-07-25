@@ -1,0 +1,33 @@
+.flexCol--canvas {
+  max-width: 800px;
+  padding: 100px 100px 0;
+  margin: 100px auto;
+  background-color: #fff;
+  border-style: solid;
+  border-color: #eee;
+  border-width: 2px;
+  height: auto;
+  box-sizing: content-box;
+}
+
+.flexRow--wedding-row {
+  width: auto;
+  margin: auto;
+  padding-bottom: 68px;
+  margin-bottom: 52px;
+}
+
+@media (max-width: 425px) {
+  .flexCol--canvas{
+    margin: 0px;
+    padding-top: 100px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px
+  }
+
+  .stretchChildrenWidth {
+    justify-content: space-between;
+
+  }
+}
